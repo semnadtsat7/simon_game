@@ -1,0 +1,77 @@
+body {
+  text-align: center;
+  background-image: url(https://wallpaperaccess.com/full/1547801.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+
+  
+}
+
+#level-title {
+  font-family: 'Press Start 2P', cursive;
+  font-size: 3.5rem;
+  margin:  5%;
+  color: #ffe572;
+  -webkit-text-stroke: 2px black;
+  
+}
+
+.container {
+  display: block;
+  width: 50%;
+  margin: auto;
+
+}
+
+.btn {
+  margin: 25px;
+  display: inline-block;
+  height: 200px;
+  width: 200px;
+  border: 10px solid black;
+  border-radius: 20%;
+}
+
+.game-over {
+  background-color: red;
+  opacity: 0.8;
+}
+
+.red {
+  background-color: rgb(255, 82, 82);
+}
+
+.green {
+  background-color: rgb(102, 210, 102);
+}
+
+.blue {
+  background-color: rgb(88, 88, 255);
+}
+
+.yellow {
+  background-color: rgb(255, 255, 122);
+}
+
+.pressed {
+  box-shadow: 0 0 20px white;
+  background-color: grey;
+}
+@media screen and (min-width:1105px) {
+  #catCanvas {
+  display: none;
+  position: relative;
+  top: -500px;
+
+}
+}
+
+@media screen and (max-width:1105px) {
+  #catCanvas {
+  display: none;
+  position: relative;
+  top: -800px;
+}
+}
+
